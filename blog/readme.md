@@ -1,17 +1,21 @@
-run 
-composer install
+run
+> cd blog
+> composer install
 
-To generate in 
-php artisan key:generate
+Update sqlite database location in the .env file:
+e.g. DB_DATABASE=<`pwd`/database/database.sqlite>
+
+To generate secret key
+> php artisan key:generate
 
 To start local server:
-php artisan serve
+> php artisan serve
 
 copy env.interview file to .env
 edit DB_DATABASE to full absolute path of database.sqlite
 
 You should be able to view app at:
-http://127.0.0.1:8000/
+http://localhost:8000/
 
 
 
