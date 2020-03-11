@@ -1,3 +1,20 @@
+run 
+composer install
+
+To generate in 
+php artisan key:generate
+
+To start local server:
+php artisan serve
+
+copy env.interview file to .env
+edit DB_DATABASE to full absolute path of database.sqlite
+
+You should be able to view app at:
+http://localhost:8000/
+
+
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
