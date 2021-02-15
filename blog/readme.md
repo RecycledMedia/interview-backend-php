@@ -10,6 +10,9 @@ php artisan serve
 copy env.interview file to .env
 edit DB_DATABASE to full absolute path of database.sqlite
 
+run:
+php artisan migrate
+
 You should be able to view app at:
 http://127.0.0.1:8000/
 
