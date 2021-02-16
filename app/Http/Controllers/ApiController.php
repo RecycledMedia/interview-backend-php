@@ -72,7 +72,7 @@ class ApiController extends Controller
             $item = Item::find($id);
             $item->name = is_null($request->name) ? $item->name : $request->name;
             $item->description = is_null($request->description) ? $item->course : $request->description;
-            $item->image = is_null($request->image) ? $item->image : $request->image
+            $item->image = is_null($request->image) ? $item->image : $request->image;
             $item->save();
 
             return response()->json([
